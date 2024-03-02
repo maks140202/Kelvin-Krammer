@@ -1,0 +1,353 @@
+
+* {
+padding:0;
+margin:0;
+
+}
+
+
+
+
+
+
+
+body{
+
+color:black;
+font-family: 'Poppins', sans-serif;
+font-size:14px;
+
+}
+
+
+.container{
+
+max-width:1230px;
+padding:0 30px;
+margin:0 auto;
+}
+
+
+.header{
+padding-top:46px;
+    background-color:#F1F1F1;
+
+}
+
+
+
+
+.header-nav{
+
+display:flex;
+justify-content:space-between;
+align-items:flex-end;
+margin-bottom:76px;
+
+}
+
+
+
+
+.logo{
+position:relative;
+font-weight: 700;
+font-size:32px;
+color:black;
+padding-right:12px;
+padding-bottom: 3px;
+text-decoration: none;
+line-height: 1;
+padding:0 12px 3px 0;
+}
+
+
+
+.logo::after{
+
+position:absolute;
+right:0;
+bottom:0;
+
+
+    content:"";
+    display:block;
+    width:8px;
+    height:8px;
+    background-color: #FDA300;
+    border-radius:50%;
+}
+
+
+
+
+
+.nav{
+    text-decoration: none;
+}
+
+.nav-list{
+
+display: flex;
+column-gap:50px;
+font-weight:500;
+font-size:14;
+text-decoration: none;
+list-style-type:none;
+text-decoration:none;
+}
+
+
+
+
+.nav-link{
+
+color:black;
+
+text-decoration:none;
+}
+
+
+
+.nav-link.active{
+    color:#606060;
+    text-decoration:none;
+}
+
+
+
+.header-row{
+
+display: flex;
+justify-content: space-between;
+column-gap:30px;
+
+}
+
+
+
+.header-content{
+margin-top:124px;
+    max-width:500px;
+}
+
+
+
+.header-heading{
+margin-bottom:20px;
+font-weight: 600px;
+font-size: 45px;
+
+}
+
+
+
+
+
+.header-content p {
+line-height:2;
+
+}
+
+
+.services{
+    padding: 90px 0;
+
+}
+
+
+.services-row{
+
+
+display:flex;
+column-gap:70px;
+
+
+}
+
+
+
+
+.service-card{
+
+
+
+
+}
+
+
+.service-card-img{
+margin-bottom:30px;
+}
+
+
+
+.service-card-title{
+margin-bottom:10px;
+font-weight: 600;
+font-size:24px;
+text-transform: uppercase;
+}
+
+
+
+
+.service-card p {
+
+line-height:2;
+
+
+}
+
+
+
+
+.portfolio{
+padding:90px 0;
+background-color: #F1F1F1;
+
+}
+
+
+
+
+
+
+.portfolio-title{
+text-align:center;
+margin-bottom: 70px;
+}
+
+
+.title-1{
+
+font-size:34px;
+font-weight:600;
+
+}
+
+
+
+.project{
+text-align:center;
+
+
+
+}
+
+
+.project + .project{
+
+margin-top:90px;
+
+}
+
+.project-img{
+    margin-bottom: 40px;
+
+}
+
+
+.project-title{
+
+font-size:"Poppins", 18px;
+text-decoration: uppercase;
+font-weight: 400px;
+}
+
+
+
+
+.project-title a {
+
+color:black;
+
+}
+
+
+
+
+
+.contacts{
+    padding:90px 0;
+    text-align:center;
+
+}
+
+
+
+
+.contacts-title{
+
+    margin-bottom:40px;
+
+}
+
+
+.contacts-content{
+    max-width:480px;
+    font-size:"Poppins", 18px;
+    margin-bottom:40px;
+    margin-left:auto;
+    margin-right:auto;
+    margin:0 auto 40px;
+
+}
+
+
+.contacts-content p + p {
+margin-top:1em;
+
+}
+
+
+
+
+.contacts-button{
+margin-bottom:80px;
+
+}
+
+
+
+.button{
+ padding: 7px 22px;
+display:inline-block;
+background-color: #070707;
+border-radius:30px;
+font-size: "Poppins",18px;
+color:#FFFFFF;
+text-decoration: none;
+transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+
+
+
+.button:hover, .button:focus{
+    background-color: #282222;
+
+} 
+
+
+.button:active{
+    background-color: #000;
+    position: relative;
+    top:1px;
+}
+
+
+
+.contacts-social{
+display: flex;
+justify-content: center;
+column-gap: 60px;
+align-items: center;
+margin-bottom: 40px;
+}
+
+
+.contacts-footer{
+
+    color:#828282;
+
+}
